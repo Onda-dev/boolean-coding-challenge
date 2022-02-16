@@ -1,0 +1,104 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+  background-color: black;
+  width: 1000px;
+  height: 900px;
+  padding-top: 90px;
+  margin: auto;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 15px;
+}
+
+.logo img {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 200px;
+}
+
+.logo h1 {
+  text-align: center;
+  color: #00dd00
+}
+
+nav div {
+  display: block;
+  width: 800px;
+  height: 30px;
+  background-color: #00dd00;
+  margin: auto;
+  padding-top: 3px;
+}
+
+.buttons {
+display: inline-block;
+text-align: center;
+}
+
+main {
+  color: white;
+  line-height: 30px;
+}
+
+h2{
+  display: inline;
+}
+
+.monopattino1 {
+  width: 800px;
+  height: 180px;
+  margin: auto;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.monopattino2 {
+  width: 800px;
+  height: 180px;
+  margin: auto;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.monopattino3 {
+  width: 800px;
+  height: 180px;
+  margin: auto;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.monopattino1 .batteria {
+  background-color: orange;
+  display: block;
+  width: 300px;
+  height: 30px;
+  border-radius: 7px;
+}
+
+.monopattino2 .batteria {
+  background-color: limegreen;
+  display: block;
+  width: 450px;
+  height: 30px;
+  border-radius: 7px;
+}
+
+.monopattino3 .batteria {
+  background-color: red;
+  display: block;
+  width: 200px;
+  height: 30px;
+  border-radius: 7px;
+}
+
+* {
+  box-sizing: border-box;
+}
