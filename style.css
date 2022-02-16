@@ -3,7 +3,6 @@ body {
   background-size: cover;
   padding-top: 20px;
   font-family: 'Roboto', sans-serif;
-
 }
 
 .container {
@@ -47,27 +46,7 @@ main {
   line-height: 30px;
 }
 
-h2{
-  display: inline;
-}
-
-.monopattino1 {
-  width: 800px;
-  height: 180px;
-  margin: auto;
-  padding-top: 30px;
-  padding-left: 20px;
-}
-
-.monopattino2 {
-  width: 800px;
-  height: 180px;
-  margin: auto;
-  padding-top: 30px;
-  padding-left: 20px;
-}
-
-.monopattino3 {
+.monopattino1, .monopattino2, .monopattino3 {
   width: 800px;
   height: 180px;
   margin: auto;
@@ -97,6 +76,10 @@ h2{
   width: 200px;
   height: 30px;
   border-radius: 7px;
+}
+
+h2{
+  display: inline;
 }
 
 * {
